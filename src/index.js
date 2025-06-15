@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter } from 'react-router-dom';  // ✅ Yeh import important hai
+import { HashRouter } from 'react-router-dom'; // Yeh import karega fix
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
