@@ -30,36 +30,12 @@ const Home = () => {
     <>
       <NavBar />
       <Component>
+        <h1>Homepage Working ✅</h1> {/* ← testing ke liye */}
         <Banner />
-        <MidSlide products={products} />
-        <MidSection />
-        <Slide
-          data={products}
-          title="Discounts for You"
-          timer={false}
-          multi={true}
-        />
-        <Slide
-          data={products}
-          title="Suggested Items"
-          timer={false}
-          multi={true}
-        />
-        <Slide
-          data={products}
-          title="Top Selection"
-          timer={false}
-          multi={true}
-        />
-        <Slide
-          data={products}
-          title="Recommended Items"
-          timer={false}
-          multi={true}
-        />
+        {/* Baki Slide/MidSection bhi yahaan */}
       </Component>
     </>
   );
-};
+}; // ✅ Yeh closing curly bracket add karna tha
 
 export default Home;
